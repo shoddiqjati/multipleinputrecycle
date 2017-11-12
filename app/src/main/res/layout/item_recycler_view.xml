@@ -15,5 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:focusableInTouchMode="true" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent"
+            android:text="button"
+            android:textColor="@android:color/white" />
     </android.support.design.widget.TextInputLayout>
 </RelativeLayout>
